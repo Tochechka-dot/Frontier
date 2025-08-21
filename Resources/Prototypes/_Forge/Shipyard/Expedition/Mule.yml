@@ -1,0 +1,42 @@
+# Author Info
+# GitHub: Tochechka-dot
+# Discord: t4k_dnh
+
+# Maintainer Info
+# GitHub:
+# Discord:
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Mule
+  parent: BaseVessel
+  name: LVHI Мул
+  description: Среднегабаритный экспедиционный шаттл. Рекомендованный состав команды 6-8 человек.
+  price: 130500
+  category: Medium
+  group: Expedition
+  shuttlePath: /Maps/Forge/Shuttles/Expedition/Mule.yml
+  class:
+  - Expedition
+  - Civilian
+
+- type: gameMap
+  id: Mule
+  mapName: 'LVHI Мул'
+  mapPath: /Maps/Forge/Shuttles/Expedition/Mule.yml
+  minPlayers: 0
+  stations:
+    Venera:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Мул {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
