@@ -4,7 +4,7 @@ meta:
   engineVersion: 262.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/21/2025 11:08:15
+  time: 08/23/2025 20:15:04
   entityCount: 861
 maps: []
 grids:
@@ -4364,17 +4364,17 @@ entities:
     - type: Transform
       pos: 2.5,3.5
       parent: 1
-- proto: GunneryServerMedium
+- proto: GunneryServerLow
   entities:
   - uid: 649
     components:
     - type: Transform
-      pos: -0.5,-4.5
+      pos: -3.5,-8.5
       parent: 1
     - type: Battery
       startingCharge: 0
     - type: ApcPowerReceiver
-      powerLoad: 10
+      powerLoad: 5
 - proto: Gyroscope
   entities:
   - uid: 579
@@ -4445,13 +4445,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -1.5,3.5
-      parent: 1
-- proto: MachineFrameDestroyed
-  entities:
-  - uid: 587
-    components:
-    - type: Transform
-      pos: -3.5,-8.5
       parent: 1
 - proto: MachineMaterialSilo
   entities:
@@ -4667,6 +4660,11 @@ entities:
       parent: 1
 - proto: Rack
   entities:
+  - uid: 587
+    components:
+    - type: Transform
+      pos: -0.5,-4.5
+      parent: 1
   - uid: 615
     components:
     - type: Transform
