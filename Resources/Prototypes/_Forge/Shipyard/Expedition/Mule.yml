@@ -13,10 +13,10 @@
   parent: BaseVessel
   name: LVHI Мул
   description: Среднегабаритный экспедиционный шаттл. Рекомендованный состав команды 6-8 человек.
-  price: 130500
+  price: 141900
   category: Medium
   group: Expedition
-  shuttlePath: /Maps/Forge/Shuttles/Expedition/Mule.yml
+  shuttlePath: /Maps/Forge/Shuttles/Expedition/mule.yml
   class:
   - Expedition
   - Civilian
@@ -24,10 +24,10 @@
 - type: gameMap
   id: Mule
   mapName: 'LVHI Мул'
-  mapPath: /Maps/Forge/Shuttles/Expedition/Mule.yml
+  mapPath: /Maps/Forge/Shuttles/Expedition/mule.yml
   minPlayers: 0
   stations:
-    Venera:
+    Mule:
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
