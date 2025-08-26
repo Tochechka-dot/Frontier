@@ -4,8 +4,8 @@ meta:
   engineVersion: 262.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/26/2025 02:10:54
-  entityCount: 864
+  time: 08/23/2025 20:15:04
+  entityCount: 861
 maps: []
 grids:
 - 1
@@ -4925,33 +4925,12 @@ entities:
     - type: Transform
       pos: -4.5,-4.5
       parent: 1
-- proto: SpawnPointContractor
-  entities:
-  - uid: 862
-    components:
-    - type: Transform
-      pos: 0.5,-8.5
-      parent: 1
 - proto: SpawnPointLatejoin
   entities:
   - uid: 648
     components:
     - type: Transform
       pos: 0.5,8.5
-      parent: 1
-- proto: SpawnPointMercenary
-  entities:
-  - uid: 864
-    components:
-    - type: Transform
-      pos: 2.5,8.5
-      parent: 1
-- proto: SpawnPointPilot
-  entities:
-  - uid: 863
-    components:
-    - type: Transform
-      pos: -1.5,8.5
       parent: 1
 - proto: SpawnShuttleGearSuitStorageUnitsMercenary
   entities:
