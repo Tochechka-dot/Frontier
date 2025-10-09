@@ -139,7 +139,7 @@
     damage:
       types:
         Piercing: 8
-        Radiation: 6
+        Heat: 6
 
 - type: entity
   id: NFBulletRifle25Uranium
